@@ -18,7 +18,7 @@ function question1 () {
   data.forEach(function(e){
     total += e.price;
   })
-    console.log("The Average cost is " + (average = total/data.length));
+    console.log("The Average cost is $" + (average = total/data.length));
 }
 
 
@@ -74,7 +74,7 @@ function question5 () {
     if(e.materials.length >= 8){
       console.log(e.title + " has " + e.materials.length + " materials: ");
       e.materials.forEach(function(f){
-        console.log("- "+f);
+        console.log("- "+ f);
       })
     }
   })
